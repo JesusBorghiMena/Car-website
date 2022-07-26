@@ -5,7 +5,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { EquipoComponent } from './equipo/equipo.component';
-import { TestimonialComponent } from './testimonial/testimonial.component';
+import { ComprarComponent } from './comprar/comprar.component';
+import { ServiciosComponent } from './servicios/servicios.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -16,13 +18,19 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     HeaderComponent,
     ContactoComponent,
     EquipoComponent,
-    TestimonialComponent
+    ComprarComponent,
+    ServiciosComponent,
+    LoginComponent
 
   ],
   exports: [
     PrincipalComponent,
+    FooterComponent,
     HeaderComponent,
-    FooterComponent
+    ContactoComponent,
+    EquipoComponent,
+    ComprarComponent,
+    ServiciosComponent
      ],
   imports: [
     CommonModule
