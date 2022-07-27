@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servicios.component.css']
 })
 export class ServiciosComponent implements OnInit {
+  mensaje:boolean=false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  enviado():void{
+   this.mensaje = true;
   }
 
 }

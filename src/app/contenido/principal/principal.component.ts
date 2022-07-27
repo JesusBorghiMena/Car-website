@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
 
+  mensaje:boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  enviado():void{
+   this.mensaje = true;
   }
 
 }
