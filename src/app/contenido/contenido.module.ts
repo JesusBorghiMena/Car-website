@@ -8,6 +8,7 @@ import { EquipoComponent } from './equipo/equipo.component';
 import { ComprarComponent } from './comprar/comprar.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { LoginComponent } from './login/login.component';
+import { ListaAutosComponent } from './lista-autos/lista-autos.component';
 
 
 
@@ -20,7 +21,8 @@ import { LoginComponent } from './login/login.component';
     EquipoComponent,
     ComprarComponent,
     ServiciosComponent,
-    LoginComponent
+    LoginComponent,
+    ListaAutosComponent
 
   ],
   exports: [
@@ -30,7 +32,8 @@ import { LoginComponent } from './login/login.component';
     ContactoComponent,
     EquipoComponent,
     ComprarComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    ListaAutosComponent
      ],
   imports: [
     CommonModule
