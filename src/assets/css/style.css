@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #d81324;
+    --primary: #2323eb;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
@@ -213,7 +213,7 @@
 }
 
 .service .nav .nav-link.active h4 {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
 }
 
 

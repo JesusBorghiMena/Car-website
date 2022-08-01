@@ -31,7 +31,7 @@ const routes: Routes = [
     component:ServiciosComponent
   },
   {
-    path:'compra',
+    path:'detalle',
     component:ComprarComponent
   },
   {
