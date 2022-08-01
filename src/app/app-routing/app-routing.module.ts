@@ -42,6 +42,25 @@ const routes: Routes = [
     path:'equipo',
     component:EquipoComponent
   },
+
+  /*{
+    path:'vehiculos/crear',
+    component:FormComponent
+   },
+   {
+    path:'vehiculos/editar/:id',
+    component:FormComponent
+   },
+   {
+    path:'vehiculos/ver/:id',
+    component:DetalleComponent
+   },
+
+   {
+    path:'lista/vehiculo',
+    component:ListaAutosComponent
+   },*/
+
     {
     path:'**',
     redirectTo:''
